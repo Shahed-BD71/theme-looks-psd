@@ -1,18 +1,35 @@
 .navbar-section {
   font-family: "Roboto", sans-serif;
 }
-
 .hero-section {
   background-color: #f2f2f2;
+}
+.hero-section,
+.domain-features h1, h4 {
   font-family: "PT Serif", serif;
 }
-
 .bg-primary-light {
   background-color: #119ee6;
 }
-
-.icon{
+ 
+.services-section .icon {
   position: relative;
-  top: -15%;
+  top: -22%;
+}
+.domain-section {
+  height: 570px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.93)),
+    url("images/domain-bg.png");
+  color: #ffffff;
+  font-family: "PT Serif", serif;
+}
+.search-from {
+  border: 100px solid #119ee6;
   z-index: 9;
+}
+
+ {
+  font-family: "PT Serif", serif;
 }
