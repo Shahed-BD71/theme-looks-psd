@@ -57,6 +57,10 @@ body {
 
 .number-shadow{
   position: relative;
-  top: 66px;
+  top: 60px;
   opacity: 0.1;
+}
+.review-section .quotes{
+  position: relative;
+  top: -27px;
 }
