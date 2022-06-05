@@ -1,13 +1,13 @@
-.navbar-section, .pricing-section .card-body {
+.navbar-section, .pricing-section .card-body, .funfact-section h1{
   font-family: "Roboto", sans-serif;
 }
-.hero-section {
+body {
   background-color: #f2f2f2;
+  
 }
 .hero-section,
 .pricing-section .card-header, h1,
-
-.domain-features h1, h4 {
+.domain-features h1, h4, .funfact-section h5, .offers h3, a, .choose-section h3, h5{
   font-family: "PT Serif", serif;
 }
 .bg-primary-light {
@@ -26,10 +26,21 @@
     url("images/domain-bg.png");
   color: #ffffff;
   font-family: "PT Serif", serif;
+  overflow: hidden;
 }
 .search-from {
   border: 100px solid #119ee6;
   z-index: 9;
+}
+
+.funfact-section {
+  height: 309px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.96)),
+    url("images/domain-bg.png");
+  color: #ffffff;
+  overflow: hidden;
 }
 
 .plan-icon{
@@ -38,5 +49,14 @@
 }
 
 .xyz{
-  fill: dark;
+  background-color: color: #ffffff;
+}
+.fw-medium{
+  font-weight: 500;
+}
+
+.number-shadow{
+  position: relative;
+  top: 66px;
+  opacity: 0.1;
 }
