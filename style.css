@@ -1,4 +1,4 @@
-.navbar-section, .pricing-section .card-body, .funfact-section h1{
+.navbar-section, .pricing-section .card-body, .funfact-section h1, .contact-section p{
   font-family: "Roboto", sans-serif;
 }
 body {
@@ -7,7 +7,7 @@ body {
 }
 .hero-section,
 .pricing-section .card-header, h1,
-.domain-features h1, h4, .funfact-section h5, .offers h3, a, .choose-section h3, h5{
+.domain-features h1, h4, .funfact-section h5, .offers h3, a, .choose-section h3, h5, #subscribe, .copyright{
   font-family: "PT Serif", serif;
 }
 .bg-primary-light {
@@ -60,7 +60,7 @@ body {
   top: 60px;
   opacity: 0.1;
 }
-.review-section .quotes{
+.review-section .quotes, .stars{
   position: relative;
   top: -27px;
 }
