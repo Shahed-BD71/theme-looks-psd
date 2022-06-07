@@ -210,14 +210,14 @@
     <!-- Domain Section -->
     <section class="domain-section overflow-hidden">
       <div
-        class="d-flex h-100 flex-column justify-content-center align-items-center"
+        class="d-flex h-100 flex-column mx-auto justify-content-center align-items-center"
       >
         <div class="text-center">
           <h6 class="fw-light lead">Domain Search here</h6>
           <h2 class="fw-bold">Find Your Domain Name</h2>
         </div>
         <div
-          class="row row-cols-3 justify-content-center py-5 row-cols-md-5 mx-auto"
+          class="row row-cols-2 ps-5 ps-md-2 row-cols-sm-3 justify-content-center py-5 row-cols-md-5 mx-auto"
         >
           <div class="col d-flex flex-column">
             <h3 class="fw-bold">.com</h3>
@@ -241,19 +241,10 @@
           </div>
         </div>
         <!-- input field -->
-        <div class="row w-50">
-          <div class="col-md-12 w-100 d-flex">
-            <form class="input-group w-75 rounded">
-              <input
-                type="search"
-                class="form-control-lg shadow-none border-none w-100 rounded"
-                placeholder="Search"
-                aria-label="Search"
-                aria-describedby="search-addon"
-              />
-            </form>
-            <select
-              class="form-select w-25 bg-dark text-white border-none shadow-none form-select-lg"
+        <div class="input-group row domain-area flex-row bg-primary-light">
+          <input id="domain-input" class="form-control w-50 m-2 shadow-none rounded" placeholder="Your E-mail Address" aria-label="Search" aria-describedby="search-addon" />
+          <select
+              class="form-select m-2 bg-dark text-nowrap text-white border-none shadow-none  m-1 btn-outline-none form-select-lg"
               aria-label=".form-select-lg example"
             >
               <option selected>.Com</option>
@@ -261,7 +252,6 @@
               <option value="2">Two</option>
               <option value="3">Three</option>
             </select>
-          </div>
         </div>
       </div>
     </section>
@@ -271,7 +261,7 @@
         <h6 class="lead">Find Your Best Domain Name</h6>
         <h1 class="fw-bold display-6">Domain Features</h1>
       </div>
-      <div class="row justify-content-center my-5">
+      <div class="row mx-auto justify-content-center my-5">
         <div class="col-12 p-4 col-md-4">
           <img src="./images/icon1.png" alt="" />
           <h4 class="py-3 fw-bold">Domain DNS Management</h4>
@@ -510,7 +500,7 @@
           </div>
         </div>
       </div>
-      <div class="row gap-md-0 gap-5 mx-auto container shadow-sm p-5 bg-white justify-content-center">
+      <div class="row gap-md-0 gap-5 mx-auto container shadow-sm p-5 align-items-center bg-white justify-content-center">
         <div class="col-12 col-md-6">
           <div class="row offers gap-2">
             <h3 class="fw-bold">Graphic Design</h3>
@@ -687,7 +677,7 @@
                 <p class="mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nisi minima eum quae explicabo doloribus, corrupti voluptatibus quia excepturi pariatur qui unde tempore provident illum.</p>
                 <a class="text-decoration-none fw-bold fs-6 text-secondary" href="">Learn More &rarr;</a>
                 <div class="d-flex align-items-center mt-3 gap-3 flex-row">
-                   <span class="fw-medium">Follow Us</span>
+                   <span class="fw-medium text-nowrap">Follow Us</span>
                    <a href=""><i class="fa-brands fa-facebook-f text-secondary"></i></a>
                    <a href=""><i class="fa-brands fa-twitter text-secondary"></i></a>
                    <a href=""><i class="fa-brands fa-linkedin-in text-secondary"></i></a>
@@ -730,7 +720,7 @@
               </div>
               <div class="py-3">
                 <h6 class="fw-bold text-white">WE Accept:</h6>
-                <img src="./images/payment.png" alt="">
+                <img class="img-fluid" src="./images/payment.png" alt="">
               </div>
             </div>
         </div>

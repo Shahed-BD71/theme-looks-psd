@@ -7,7 +7,7 @@ html, body {
   box-sizing: border-box;
   background-color: #f2f2f2;
 }
-
+/* Handle Font and Color */
 .navbar-section, .pricing-section .card-body, .funfact-section h1, .contact-section p, .phone a, .email a{
   font-family: "Roboto", sans-serif;
 }
@@ -22,11 +22,16 @@ html, body {
 .primary-light {
   color: #119ee6;
 }
-
+.gray-dark{
+  color: #aaaaaa;
+}
+.fw-medium{
+  font-weight: 500;
+}
 /* Services */
 .services-section .icon {
   position: absolute;
-  top: -38px;
+  top: -30px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -35,6 +40,7 @@ html, body {
   }
 }
 
+/* Domain */
 .domain-section {
   height: 570px;
   background-size: cover !important;
@@ -45,6 +51,17 @@ html, body {
   font-family: "PT Serif", serif;
   overflow: hidden;
 }
+
+.domain-area {
+  max-width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .domain-area {
+    max-width: 80%;
+  }
+}
+/* Funfact */
 .funfact-section {
   height: 309px;
   background-size: cover !important;
@@ -55,19 +72,15 @@ html, body {
   overflow: hidden;
 }
 
-.fw-medium{
-  font-weight: 500;
-}
+/* Why Choose Us */
 .number-shadow{
   position: relative;
   top: 60px;
   opacity: 0.1;
 }
+
+/* Review */
 .review-section .quotes, .stars{
   position: relative;
   top: -27px;
-}
-
-.gray-dark{
-  color: #aaaaaa;
 }
