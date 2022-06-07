@@ -22,10 +22,19 @@ html, body {
 .primary-light {
   color: #119ee6;
 }
+
+/* Services */
 .services-section .icon {
-  position: relative;
-  top: -22%;
+  position: absolute;
+  top: -38px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .services-section .icon {
+    position: relative;
+  }
+}
+
 .domain-section {
   height: 570px;
   background-size: cover !important;
@@ -58,6 +67,7 @@ html, body {
   position: relative;
   top: -27px;
 }
+
 .gray-dark{
   color: #aaaaaa;
 }
