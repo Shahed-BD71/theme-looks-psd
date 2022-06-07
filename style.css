@@ -19,11 +19,9 @@ html, body {
 .bg-primary-light {
   background-color: #119ee6;
 }
-
 .primary-light {
   color: #119ee6;
 }
- 
 .services-section .icon {
   position: relative;
   top: -22%;
@@ -38,11 +36,6 @@ html, body {
   font-family: "PT Serif", serif;
   overflow: hidden;
 }
-.search-from {
-  border: 100px solid #119ee6;
-  z-index: 9;
-}
-
 .funfact-section {
   height: 309px;
   background-size: cover !important;
@@ -53,20 +46,9 @@ html, body {
   overflow: hidden;
 }
 
-.plan-icon{
-  position: relative;
-  top: 18px;
-  right: -13px;
-  
-}
-
-.xyz{
-  background-color: color: #ffffff;
-}
 .fw-medium{
   font-weight: 500;
 }
-
 .number-shadow{
   position: relative;
   top: 60px;
@@ -78,11 +60,4 @@ html, body {
 }
 .gray-dark{
   color: #aaaaaa;
-}
-
-.price-bg-dark{
-  background: url("images/price-bg-dark.png");
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  
 }
