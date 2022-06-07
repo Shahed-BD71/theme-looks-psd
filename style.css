@@ -1,9 +1,15 @@
-.navbar-section, .pricing-section .card-body, .funfact-section h1, .contact-section p{
-  font-family: "Roboto", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
-body {
+
+html, body {
+  box-sizing: border-box;
   background-color: #f2f2f2;
-  
+}
+
+.navbar-section, .pricing-section .card-body, .funfact-section h1, .contact-section p, .phone a, .email a{
+  font-family: "Roboto", sans-serif;
 }
 .hero-section,
 .pricing-section .card-header, h1,
@@ -12,6 +18,10 @@ body {
 }
 .bg-primary-light {
   background-color: #119ee6;
+}
+
+.primary-light {
+  color: #119ee6;
 }
  
 .services-section .icon {
@@ -44,8 +54,10 @@ body {
 }
 
 .plan-icon{
-  position: absolute;
-  bottom: 2%;
+  position: relative;
+  top: 18px;
+  right: -13px;
+  
 }
 
 .xyz{
@@ -63,4 +75,14 @@ body {
 .review-section .quotes, .stars{
   position: relative;
   top: -27px;
+}
+.gray-dark{
+  color: #aaaaaa;
+}
+
+.price-bg-dark{
+  background: url("images/price-bg-dark.png");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  
 }
