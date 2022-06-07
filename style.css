@@ -63,7 +63,7 @@ html, body {
 }
 /* Funfact */
 .funfact-section {
-  height: 309px;
+  height: 320px;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.96)),
