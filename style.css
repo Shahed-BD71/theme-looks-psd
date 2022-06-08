@@ -84,3 +84,16 @@ html, body {
   position: relative;
   top: -27px;
 }
+
+.footer-section ul li a {
+  position: relative;
+  padding-left: 23px;
+}
+
+.footer-section ul li a::after {
+  content: "\f0a4";
+  font-family: "FontAwesome";
+  left: 0;
+  position: absolute;
+  font-size: 14px;
+}
